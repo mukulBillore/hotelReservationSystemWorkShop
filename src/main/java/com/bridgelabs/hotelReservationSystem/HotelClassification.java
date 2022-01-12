@@ -22,5 +22,11 @@ public float getRateForRegularCust() {
 public void setRateForRegularCust(float rateForRegularCust) {
 	this.rateForRegularCust = rateForRegularCust;
 }
+@Override
+public String toString() {
+	return "HotelClassification [nameOfHotel=" + nameOfHotel + ", ratingOfHotel=" + ratingOfHotel
+			+ ", rateForRegularCust=" + rateForRegularCust + "]";
+}
+
 
 }
